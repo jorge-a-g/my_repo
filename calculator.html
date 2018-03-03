@@ -4,16 +4,20 @@
 <title>Calculator</title>
 <meta charset="UTF-8">
 <script type="text/javascript">
-	function cube() {
+	function cubo() {
 		var num = document.getElementById("n1");
 		num.value = Math.pow(num.value, 3);
 	}
+	function cuaratPotencia() {
+		var num = document.getElementById("n1");
+		num.value = Math.pow(num.value, 3);
 </script>
 </head>
 <body>
 	<h1>Calculadora de Jorge González</h1>
 	Number:
 	<input type="text" id="n1"><p>
-	<button onclick="cube()"> n^3 </button>													
+	<button onclick="cubo()"> n^3 </button>
+	<button onclick="cuartaPotencia()"> n^4 </button>													
 </body>
 </html>
